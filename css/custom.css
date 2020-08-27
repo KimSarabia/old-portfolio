@@ -1,0 +1,35 @@
+.code-block {
+  background-color:#000A88;
+  color:#00FFDE;
+  font-family: Consolas, Monaco, Lucinda Console;
+}
+.goToTop
+    {
+        position: fixed;
+        width: 100px;
+        height: 40px;
+        bottom: 0;
+        right: 0;
+        z-index: 100000;
+        cursor: pointer;
+        margin: 10px;
+        -moz-opacity: 0.60;
+        opacity: .60;
+        filter: alpha(opacity=60);
+    }
+
+    a.link:hover {
+      text-decoration: underline;
+    }
+
+.portfolio_group.masonry-hover .portfolio-item .masonry-hover-wrapper .hover-desc.bg-light h3 a:hover {
+  color: #fff;
+}
+
+em, i:hover {
+     color: white;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+    display: none !important;
+}

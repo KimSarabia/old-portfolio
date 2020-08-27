@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Kim Sarabia | Developer | San Francisco + NYC</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <link rel='stylesheet' id='Roboto-css' href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,400italic,700'>
+    <link rel='stylesheet' id='Patua+One-css' href='https://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
+    <link rel='stylesheet' id='Raleway-css' href='https://fonts.googleapis.com/css?family=Raleway:400,400italic,700,700italic'>
+    <link rel='stylesheet' id='Lato-css' href='https://fonts.googleapis.com/css?family=Lato:100,300,400'>
+
+    <link rel="stylesheet" href="https://s.mlcdn.co/animate.css">
+    <link rel='stylesheet' id='global-css' href='css/global.css'>
+    <link rel='stylesheet' id='structure-css' href='css/structure.css'>
+    <link rel='stylesheet' id='local-css' href='css/freelancer.css'>
+    <link rel='stylesheet' id='custom-css' href='css/custom.css'>
+    <link rel='stylesheet' id='custom-css' href='css/hover-min.css'>
+
+
+
+    <!-- JS -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-104246035-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+      <script src="js/main.js"></script>
+
+</head>
+
+
+<body ng-app="portfolioApp" class="home page page-id-2   color-custom style-default layout-full-width nice-scroll-on mobile-tb-left button-stroke no-content-padding header-creative header-open minimalist-header-no sticky-white ab-hide subheader-title-left menu-line-below tr-menu tr-content tr-footer {{ bodyClass }}" ng-cloak>
+    <div id="Header_creative" class="">
+        <a href="#" class="creative-menu-toggle"><i class="icon-menu"></i></a>
+        <ul class="social creative-social test687"></ul>
+        <div class="creative-wrapper">
+            <div id="Top_bar">
+                <div class="one">
+                    <div class="top_bar_left">
+                        <div class="logo">
+                            <a id="logo" href="index.html" title="Kim"><img class="logo-main scale-with-grid" src="images/freelancer.png" alt="freelancer" /><img class="logo-mobile scale-with-grid" src="images/freelancer.png" alt="freelancer" />
+                            </a>
+                        </div>
+                        <div class="menu_wrapper">
+                            <nav id="menu" class="menu-main-menu-container">
+                                <ul id="menu-main-menu" class="menu">
+                                    <li id="menu-item-6" class="hvr-pulse menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2" ng-class="{ current_page_item: isActive('/home')}">
+                                        <a ui-sref="home"><span>Home</span></a>
+                                    </li>
+                                    <li id="menu-item-17" class="hvr-pulse menu-item menu-item-type-post_type menu-item-object-page" ng-class="{ current_page_item: isActive('/work')}">
+                                        <a ui-sref="work"><span>Projects</span></a>
+                                    </li>
+                                    <li id="menu-item-16" class="hvr-pulse menu-item menu-item-type-post_type menu-item-object-page" ng-class="{ current_page_item: isActive('/bio')}">
+                                        <a ui-sref="bio"><span>About Me</span></a>
+                                    </li>
+                                    <li id="menu-item-15" class="hvr-pulse menu-item menu-item-type-post_type menu-item-object-page " ng-class="{ current_page_item: isActive('/hire-me')}">
+                                        <a ui-sref="hire-me"><span>Collaborate</span></a>
+                                    </li>
+                                    <li id="menu-item-15" class="hvr-pulse menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="https://medium.com/@HiKimberlyJane"><span>Blog</span></a>
+                                    </li>
+                                    <li id="menu-item-15" class="hvr-pulse menu-item menu-item-type-post_type menu-item-object-page">
+                                        <a href="https://drive.google.com/file/d/0Bzssr7lZv9tEbFRqbU1rMng5TzA/view?usp=sharing"><span>Resume</span></a>
+                                    </li>
+                                </ul>
+                            </nav><a class="responsive-menu-toggle " href="#"><i class="icon-menu"></i></a>
+                        </div>
+                        <div class="search_wrapper">
+                            <form method="get" id="searchform" action="#">
+                                <i class="icon_search icon-search"></i><a href="#" class="icon_close"><i class="icon-cancel"></i></a>
+                                <input type="text" class="field" name="s" id="s" placeholder="Enter your search" />
+                                <input type="submit" class="submit" value="" style="display:none;" />
+                            </form>
+                        </div>
+                    </div>
+                    <div class="banner_wrapper"></div>
+                </div>
+            </div>
+            <div id="Action_bar">
+                <ul class="social"></ul>
+            </div>
+        </div>
+    </div>
+    <ui-view autoscroll="false"></ui-view>
+</body>
+
+</html>
